@@ -1,1 +1,116 @@
-body{background-color: #3ac5c9; font-family: 'Russo One', sans-serif;}a{color: #0202f8;}a:hover{color: red;}.title{color: #f0f0f0; font-size: 70px; font-weight: 400;}.header{/* color: #f0f0f0; */ color: black;}.content{/* color: black; */ color: #f0f0f0; font-weight: 100;}.project-header{color: black; font-weight: 200;}.projects{display: flex; justify-content: space-around;}.project-item{padding: 12px 16px; flex-basis: 30%;}.project-item:nth-child(1){background-color: #efb54a;}.project-item:nth-child(2){background-color: #ea5e3d;}.project-item:nth-child(3){background-color: gray;}.credit{position: fixed; bottom: 0; right: 0;}/* flip animation */.flip-card{background-color: transparent; width: 450px; height: 450px; perspective: 1000px;}.flip-card-inner{position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}.flip-card:hover .flip-card-inner{transform: rotateY(180deg);}.flip-card-front, .flip-card-back{position: absolute; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden;}.flip-card-back{background-color: white; transform: rotateY(180deg);}
+body {
+    /* background: linear-gradient(160deg, #43c6ac, #191654);  */
+    background-color: #49b8dd;
+    /* background: linear-gradient(to bottom, #56ccf2, #2f80ed); */
+    font-family: "Russo One", sans-serif;
+}
+a {
+    color: #0202f8;
+}
+a:hover {
+    color: red;
+}
+.title {
+    color: #f0f0f0;
+    font-size: 70px;
+    font-weight: 400;
+}
+.header {
+    /* color: #f0f0f0; */
+    color: black;
+}
+.content {
+    /* color: black; */
+    color: #f0f0f0;
+    /* font-weight: 100; */
+}
+
+h3 {
+    font-weight: 50; 
+}
+
+/* Project Line 1 */
+.project-header {
+    color: black;
+    font-weight: 200;
+}
+.projects {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.project-item {
+    padding: 12px 16px;
+    flex-basis: 30%;
+}
+.project-item:nth-child(1) {
+    background-color: #e0a435;
+}
+.project-item:nth-child(2) {
+    background-color: #d84c2c;
+}
+.project-item:nth-child(3) {
+    background-color: gray;
+}
+
+/* Project Line 2 */
+
+.projects2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.project-item2 {
+    padding: 12px 16px;
+    flex-basis: 30%;
+}
+.project-item2:nth-child(1) {
+    background-color: #0342be71;
+}
+.project-item2:nth-child(2) {
+    background-color: #40cf1c8e;
+}
+.project-item2:nth-child(3) {
+    background-color: rgba(196, 78, 78, 0.295);
+}
+
+
+.credit {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/* flip animation */
+.flip-card {
+    background-color: transparent;
+    width: 450px;
+    height: 450px;
+    perspective: 1000px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 95%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-card-back {
+    background-color: white;
+    transform: rotateY(180deg);
+}
+
+
