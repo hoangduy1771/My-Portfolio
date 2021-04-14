@@ -5,10 +5,10 @@ body {
     font-family: "Russo One", sans-serif;
 }
 a {
-    color: #0202f8;
+    color: white;
 }
 a:hover {
-    color: red;
+    color: black;
 }
 .title {
     color: #f0f0f0;
@@ -88,6 +88,10 @@ h3 {
     width: 450px;
     height: 450px;
     perspective: 1000px;
+    display: block;
+    border-radius: 5px;
+    margin: 10px;
+    
 }
 .flip-card-inner {
     position: relative;
@@ -103,15 +107,18 @@ h3 {
 }
 .flip-card-front,
 .flip-card-back {
+    display: block;
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    border-radius: 3px;
 }
 .flip-card-back {
     background-color: white;
     transform: rotateY(180deg);
+    border-radius: 3px;
 }
 
 
